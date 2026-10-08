@@ -36,7 +36,7 @@ The ALU handles 8-bit operations using 2's complement arithmetic, includes carry
 
 The design was thoroughly tested using a testbench in ModelSim. Below is the waveform output demonstrating the functionality of the ALU across various operations.
 
-![Simulation Waves](assets/Waves_2026.jpg)
+![Simulation Waves](assets/Waves.jpg)
 
 **Signal Description:**
 - `X_tb` & `Y_tb`: 8-bit inputs (displayed in decimal).
@@ -70,8 +70,8 @@ The design was synthesized in Quartus Prime. Below are the visual representation
 
 ### RTL Viewer
 Shows the top-level entity integrating the ALU core and the dual 7-segment hex display decoders.
-![RTL Viewer](assets/RTL_viewer_2026.jpg)
+![RTL Viewer](assets/RTL_viewer.jpg)
 
 ### Technology Map Viewer (Post-Fitting)
 Displays how the abstract logic is mapped to the physical Look-Up Tables (LUTs) and logic elements of the target FPGA.
-![Technology Map Viewer](assets/Map_Viewer_2026.jpg)
+![Technology Map Viewer](assets/Map_Viewer.jpg)

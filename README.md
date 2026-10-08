@@ -24,7 +24,7 @@ The ALU handles 8-bit operations using 2's complement arithmetic, includes carry
 - `/quartus`: Intel Quartus Prime project configuration files (QPF, QSF) and Pin Assignments for the DE2-115 development board.
 - `/assets`: Contains screenshots of the RTL schematic, technology map, and simulation waveforms.
 
-## 🛠️ Tools Used
+## Tools Used
 
 - **Hardware Description Language:** VHDL
 - **Synthesis & Routing:** Intel Quartus Prime

@@ -2,7 +2,7 @@
 
 This repository contains the design, implementation, and simulation of an 8-bit Arithmetic Logic Unit (ALU), written entirely in VHDL. The design supports 8 distinct operations controlled by a 3-bit selection signal (`S`) and includes a module for driving 7-segment displays (Hex) to visualize the output.
 
-## 🚀 Features & Operations
+## Features & Operations
 
 The ALU handles 8-bit operations using 2's complement arithmetic, includes carry/overflow management, and outputs the result in hexadecimal format. The operations are selected via the 3-bit `S` signal according to the following truth table:
 
@@ -17,7 +17,7 @@ The ALU handles 8-bit operations using 2's complement arithmetic, includes carry
 | `110` | F = X OR Y | Bitwise OR |
 | `111` | F = X AND Y | Bitwise AND |
 
-## 📁 Repository Structure
+## Repository Structure
 
 - `/src`: Contains the VHDL source files (Top-level architecture, 8-bit ALU core, Hex display decoder, and Utility packages).
 - `/sim`: Contains the Testbench (`tb_alu.vhd`) for functional verification.
@@ -32,7 +32,7 @@ The ALU handles 8-bit operations using 2's complement arithmetic, includes carry
 
 ---
 
-## 📊 Simulation & Waveform Analysis
+## Simulation & Waveform Analysis
 
 The design was thoroughly tested using a testbench in ModelSim. Below is the waveform output demonstrating the functionality of the ALU across various operations.
 
@@ -64,7 +64,7 @@ The design was thoroughly tested using a testbench in ModelSim. Below is the wav
 
 ---
 
-## 🖥️ RTL & Technology Map Viewer
+## RTL & Technology Map Viewer
 
 The design was synthesized in Quartus Prime. Below are the visual representations of the synthesized hardware.
 

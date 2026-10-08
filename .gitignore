@@ -1,0 +1,19 @@
+# Quartus
+db/
+incremental_db/
+output_files/
+simulation/
+*.bak
+*.qws
+*.sof
+*.pof
+*.rpt
+*.smsg
+*.summary
+*.jdi
+*.pin
+
+# ModelSim
+work/
+transcript
+*.wlf
